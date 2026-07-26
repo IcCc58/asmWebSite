@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-label="Sağlık ekibi illüstrasyonu">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9F2EF"/>
+      <stop offset="1" stop-color="#BDE8E2"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="440" rx="24" fill="url(#tbg)"/>
+  <circle cx="280" cy="210" r="158" fill="#ffffff" opacity=".45"/>
+  <circle cx="280" cy="210" r="118" fill="#ffffff" opacity=".45"/>
+
+  <!-- Dekoratif artılar -->
+  <g stroke="#0D9488" stroke-width="7" stroke-linecap="round" opacity=".35">
+    <path d="M72 78 v26 M59 91 h26"/>
+    <path d="M492 66 v22 M481 77 h22"/>
+    <path d="M516 180 v18 M507 189 h18"/>
+  </g>
+  <circle cx="66" cy="150" r="7" fill="#F59E0B" opacity=".55"/>
+  <circle cx="505" cy="130" r="6" fill="#E63946" opacity=".45"/>
+
+  <!-- Sol: Hemşire -->
+  <g transform="translate(10,120) scale(1.35)">
+    <circle cx="120" cy="52" r="15" fill="#5C3A21"/>
+    <circle cx="120" cy="94" r="41" fill="#5C3A21"/>
+    <path d="M82 100 c0 36 6 54 15 62 l7 -9 c-9 -9 -13 -27 -13 -53 z" fill="#5C3A21"/>
+    <path d="M158 100 c0 36 -6 54 -15 62 l-7 -9 c9 -9 13 -27 13 -53 z" fill="#5C3A21"/>
+    <path d="M108 124 h24 v26 c0 8 -5 13 -12 13 s-12 -5 -12 -13 z" fill="#E0A97E"/>
+    <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="#14B8A6"/>
+    <path d="M104 146 L120 170 L136 146 L140 154 L120 180 L100 154 Z" fill="#0F766E"/>
+    <path d="M99 152 c-4 26 3 44 13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+    <path d="M141 152 c4 26 -3 44 -13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="130" cy="210" r="8.5" fill="#33475B"/>
+    <circle cx="81" cy="106" r="7" fill="#F5C9A6"/>
+    <circle cx="159" cy="106" r="7" fill="#F5C9A6"/>
+    <circle cx="120" cy="104" r="38" fill="#F5C9A6"/>
+    <path d="M84 96 c8-12 24-18 36-18 s28 6 36 18 c-10-6-22-8-36-8 s-26 2-36 8 z" fill="#5C3A21"/>
+    <circle cx="105" cy="101" r="3.2" fill="#26323F"/>
+    <circle cx="135" cy="101" r="3.2" fill="#26323F"/>
+    <path d="M110 120 q10 8 20 0" fill="none" stroke="#C46B5E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sağ: Kadın hekim (başörtülü) -->
+  <g transform="translate(315,118) scale(1.35)">
+    <circle cx="120" cy="102" r="49" fill="#16456F"/>
+    <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="#F8FBFC"/>
+    <path d="M104 146 h32 l-16 24 z" fill="#14B8A6"/>
+    <path d="M104 146 L120 172 L104 202 L92 195 C96 176 99 160 104 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+    <path d="M136 146 L120 172 L136 202 L148 195 C144 176 141 160 136 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+    <path d="M74 122 c0 44 18 76 46 76 s46 -32 46 -76 c-8 16 -26 26 -46 26 s-38 -10 -46 -26 z" fill="#16456F"/>
+    <circle cx="120" cy="106" r="36" fill="#F2C29B"/>
+    <path d="M86 100 a38 38 0 0 1 68 0" fill="none" stroke="#0F2E4E" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="106" cy="103" r="3.2" fill="#26323F"/>
+    <circle cx="134" cy="103" r="3.2" fill="#26323F"/>
+    <path d="M110 121 q10 8 20 0" fill="none" stroke="#C46B5E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M99 154 c-4 26 3 44 13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+    <path d="M141 154 c4 26 -3 44 -13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="130" cy="212" r="8.5" fill="#33475B"/>
+  </g>
+
+  <!-- Orta: Erkek hekim -->
+  <g transform="translate(106,96) scale(1.45)">
+    <circle cx="120" cy="94" r="41" fill="#26323F"/>
+    <rect x="82" y="98" width="9" height="16" rx="4" fill="#26323F"/>
+    <rect x="149" y="98" width="9" height="16" rx="4" fill="#26323F"/>
+    <path d="M108 124 h24 v26 c0 8 -5 13 -12 13 s-12 -5 -12 -13 z" fill="#E0A97E"/>
+    <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="#F8FBFC"/>
+    <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="none" stroke="#DFE9EE" stroke-width="2"/>
+    <path d="M104 146 h32 l-16 24 z" fill="#14B8A6"/>
+    <path d="M104 146 L120 172 L104 202 L92 195 C96 176 99 160 104 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+    <path d="M136 146 L120 172 L136 202 L148 195 C144 176 141 160 136 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+    <path d="M99 152 c-4 26 3 44 13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+    <path d="M141 152 c4 26 -3 44 -13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="130" cy="210" r="8.5" fill="#33475B"/>
+    <circle cx="130" cy="210" r="3.5" fill="#94A3B8"/>
+    <circle cx="81" cy="106" r="7" fill="#F2C29B"/>
+    <circle cx="159" cy="106" r="7" fill="#F2C29B"/>
+    <circle cx="120" cy="104" r="38" fill="#F2C29B"/>
+    <path d="M98 90 h13 M129 90 h13" stroke="#26323F" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="105" cy="101" r="3.2" fill="#26323F"/>
+    <circle cx="135" cy="101" r="3.2" fill="#26323F"/>
+    <path d="M110 120 q10 8 20 0" fill="none" stroke="#26323F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

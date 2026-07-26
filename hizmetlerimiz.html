@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hizmetlerimiz — Yenişehir Aile Sağlığı Merkezi</title>
+  <meta name="description" content="Yenişehir Aile Sağlığı Merkezi'nde sunulan hizmetler: poliklinik, aşılama, gebe ve bebek izlemi, aile planlaması, laboratuvar ve daha fazlası.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ======================= ÜST BİLGİ ÇUBUĞU ======================= -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__group topbar__group--left">
+        <span class="topbar__item topbar__item--address">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Yenişehir Mah. Sağlık Cad. No:12 Çankaya/Ankara
+        </span>
+        <a class="topbar__item" href="mailto:info@yenisehirasm.com.tr">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          info@yenisehirasm.com.tr
+        </a>
+      </div>
+      <div class="topbar__group">
+        <span class="topbar__item">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Hafta içi 08:00 – 17:00
+        </span>
+        <a class="topbar__item topbar__pill" href="tel:03123950000">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0312 395 00 00
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Yenişehir Aile Sağlığı Merkezi anasayfa">
+        <img class="brand__logo" src="assets/img/logo.svg" alt="T.C. Sağlık Bakanlığı kurum logosu" width="64" height="64">
+        <span class="brand__text">
+          <span class="brand__gov">T.C. Sağlık Bakanlığı</span>
+          <span class="brand__name">Yenişehir Aile Sağlığı Merkezi</span>
+          <span class="brand__sub">Ankara İl Sağlık Müdürlüğü</span>
+        </span>
+      </a>
+      <div class="header__meta">
+        <div class="header__hours">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div>
+            <b>Hafta içi 08:00 – 17:00</b>
+            <span>Öğle arası 12:30 – 13:30</span>
+          </div>
+        </div>
+        <a class="header__phone" href="tel:03123950000">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div>
+            <small>ASM Telefon</small>
+            <b>0312 395 00 00</b>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================== ANA MENÜ =========================== -->
+  <nav class="main-nav" aria-label="Ana menü">
+    <div class="container main-nav__inner">
+      <button class="nav-toggle" aria-expanded="false" aria-label="Menüyü aç veya kapat">
+        <svg class="icon nav-toggle__open" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg class="icon nav-toggle__close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <ul class="main-nav__list">
+        <li><a class="main-nav__link" href="index.html">Anasayfa</a></li>
+        <li><a class="main-nav__link" href="kurumsal.html">Kurumsal</a></li>
+        <li><a class="main-nav__link main-nav__link--active" href="hizmetlerimiz.html" aria-current="page">Hizmetlerimiz</a></li>
+        <li><a class="main-nav__link" href="hekimlerimiz.html">Hekimlerimiz</a></li>
+        <li><a class="main-nav__link" href="duyurular.html">Duyurular</a></li>
+        <li><a class="main-nav__link" href="iletisim.html">İletişim</a></li>
+        <li>
+          <a class="btn btn--primary btn--sm nav-cta" href="https://mhrs.gov.tr" target="_blank" rel="noopener">
+            MHRS Randevu
+            <svg class="icon" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ========================= SAYFA BAŞLIĞI ======================= -->
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <nav class="breadcrumb" aria-label="Sayfa yolu">
+          <a href="index.html">
+            <svg class="icon" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+            Anasayfa
+          </a>
+          <svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+          <span aria-current="page">Hizmetlerimiz</span>
+        </nav>
+        <h1>Hizmetlerimiz</h1>
+        <p>Birinci basamak sağlık hizmetleri kapsamında merkezimizde sunulan tüm hizmetlerin detaylı listesi.</p>
+      </div>
+    </section>
+
+    <!-- ======================= HİZMET DETAYLARI ====================== -->
+    <section class="section">
+      <div class="container">
+
+        <article class="service-detail reveal" id="poliklinik">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M4 2H3a1 1 0 0 0-1 1v6a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1h-1"/><path d="M8 15v2a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="11" r="2"/></svg>
+          </span>
+          <div>
+            <h2>Poliklinik Hizmetleri</h2>
+            <p>
+              Aile hekimlerimiz tarafından her yaştan hastamıza birinci basamak muayene hizmeti verilmektedir.
+              Hastalıkların erken teşhisi, ayaktan tedavisi ve gerekli durumlarda uzman merkezlere sevk
+              işlemleri yapılmaktadır. Kronik hastalıkların (diyabet, hipertansiyon, astım vb.) düzenli
+              takibi de poliklinik hizmetimizin parçasıdır.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Genel muayene</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Kronik hastalık takibi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Reçete düzenlenmesi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Sevk işlemleri</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Sağlık raporları</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail reveal" id="asilama">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="m18 2 4 4M14.5 5.5l4 4M12 8l4 4M6 18l-4 4"/><path d="m13 7 4 4-8.5 8.5a2.12 2.12 0 0 1-3-3Z"/><path d="m16 4 4 4"/></svg>
+          </span>
+          <div>
+            <h2>Aşılama (Bağışıklama) Hizmetleri</h2>
+            <p>
+              T.C. Sağlık Bakanlığı ulusal aşı takvimine uygun olarak bebek, çocuk, ergen ve yetişkinlerin
+              tüm aşı uygulamaları merkezimizde ücretsiz yapılmaktadır. Aşı takipleri e-Nabız sistemi
+              üzerinden yürütülmekte, eksik aşısı olan vatandaşlarımız bilgilendirilmektedir.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Bebek ve çocuk aşıları</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Grip aşısı (risk grupları)</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Zatürre (pnömokok) aşısı</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Tetanoz difteri aşısı</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Aşı danışmanlığı</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail reveal" id="gebe-lohusa">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/><path d="M3.2 12h6.3l.5-1 2 4.5 2-7 1.5 3.5h5.3"/></svg>
+          </span>
+          <div>
+            <h2>Gebe &amp; Lohusa İzlemi</h2>
+            <p>
+              Anne ve bebek sağlığını korumak amacıyla gebelik süresince düzenli aralıklarla izlem
+              yapılmaktadır. Doğum sonrası 40 günlük lohusalık döneminde de anne ve yenidoğan bebek
+              izlemleri ev ziyaretleri ve merkezimizde sürdürülmektedir.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Gebelik tespiti ve kaydı</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Düzenli gebe izlemleri</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Demir ve vitamin desteği</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Lohusalık izlemi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Emzirme danışmanlığı</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail reveal" id="bebek-cocuk">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M9 12h.01M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5S14.6 8 13.5 8c-.8 0-1.5-.4-1.5-1"/></svg>
+          </span>
+          <div>
+            <h2>Bebek &amp; Çocuk İzlemi</h2>
+            <p>
+              Yenidoğan döneminden itibaren tüm bebek ve çocuklarımızın boy, kilo, baş çevresi ölçümleri
+              ile fiziksel ve zihinsel gelişim basamakları düzenli olarak izlenmektedir. Gelişimsel
+              gerilik veya beslenme sorunlarında erken müdahale yapılmaktadır.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Yenidoğan izlemi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Büyüme-gelişme takibi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>İşitme taraması yönlendirmesi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>D vitamini desteği</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Beslenme danışmanlığı</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail reveal" id="aile-planlamasi">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </span>
+          <div>
+            <h2>Aile Planlaması</h2>
+            <p>
+              Çiftlere üreme sağlığı, güvenli annelik ve gebelikten korunma yöntemleri hakkında
+              danışmanlık verilmektedir. Uygun yöntemlerin uygulanması ve takibi merkezimizde
+              yapılmaktadır.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Üreme sağlığı danışmanlığı</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Korunma yöntemleri bilgilendirmesi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Rahim içi araç (spiral) takibi</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Güvenli annelik eğitimi</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail reveal" id="laboratuvar">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M10 2v7.5a2 2 0 0 1-.2.9L4.7 20.5a1 1 0 0 0 .9 1.5h12.8a1 1 0 0 0 .9-1.5L14.2 10.4a2 2 0 0 1-.2-.9V2"/><path d="M8.5 2h7M7 16h10"/></svg>
+          </span>
+          <div>
+            <h2>Laboratuvar Tetkikleri</h2>
+            <p>
+              Hekimlerimizin gerekli gördüğü kan, idrar ve diğer temel tetkikler için numune alımı
+              merkezimizde yapılmaktadır. Numuneler Halk Sağlığı Laboratuvarı'nda çalışılmakta,
+              sonuçlar e-Nabız sistemi üzerinden görüntülenebilmektedir.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Kan numunesi alımı</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>İdrar tetkiki</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Şeker / kolesterol ölçümü</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Sonuçlar e-Nabız'da</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail reveal" id="enjeksiyon">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="9" width="20" height="6" rx="3" transform="rotate(-45 12 12)"/><path d="M10.5 10.5h.01M13.5 13.5h.01M12 12h.01M10.5 13.5h.01M13.5 10.5h.01"/></svg>
+          </span>
+          <div>
+            <h2>Enjeksiyon &amp; Pansuman</h2>
+            <p>
+              Hekim tarafından reçete edilmiş enjeksiyon (iğne) tedavileri hemşirelerimiz tarafından
+              uygulanmaktadır. Küçük yara bakımı, pansuman ve dikiş alma işlemleri de merkezimizde
+              yapılabilmektedir.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Reçeteli enjeksiyon</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Pansuman ve yara bakımı</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Dikiş alma</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Tansiyon ölçümü</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail reveal" id="danismanlik">
+          <span class="service-detail__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8Z"/></svg>
+          </span>
+          <div>
+            <h2>Tıbbi Danışmanlık &amp; Halk Eğitimleri</h2>
+            <p>
+              Sağlıklı yaşam, beslenme, hastalıklardan korunma yolları ve koruyucu hekimlik
+              uygulamaları hakkında bireysel danışmanlık verilmektedir. Ayrıca hijyen, sigara bırakma,
+              obezite ile mücadele gibi konularda düzenli halk eğitimleri düzenlenmektedir.
+            </p>
+            <ul>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Sağlıklı beslenme danışmanlığı</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Sigara bırakma desteği</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Obezite ile mücadele</li>
+              <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>Toplum eğitimleri</li>
+            </ul>
+          </div>
+        </article>
+
+        <div class="note-box mt-4 reveal">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <div>
+            <b>Bilgilendirme:</b> Merkezimizdeki tüm hizmetler T.C. Sağlık Bakanlığı birinci basamak
+            sağlık hizmetleri kapsamında sunulmaktadır. Acil durumlarda lütfen önce
+            <b>112 Acil Sağlık Hizmetleri</b>ni arayınız.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CTA BANDI ========================== -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="cta-banner__inner">
+            <div>
+              <h2>Sorunuz mu var? Bize Ulaşın</h2>
+              <p>Hizmetlerimiz hakkında detaylı bilgi almak için merkezimizi arayabilir veya çalışma saatleri içinde bizi ziyaret edebilirsiniz.</p>
+            </div>
+            <div class="cta-banner__actions">
+              <a class="btn btn--white btn--lg" href="iletisim.html">
+                İletişim Bilgileri
+                <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a class="btn btn--outline btn--lg" href="tel:03123950000">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                0312 395 00 00
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="footer-cta-line"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <img class="brand__logo" src="assets/img/logo.svg" alt="" width="64" height="64">
+            <span class="brand__text">
+              <span class="brand__gov">T.C. Sağlık Bakanlığı</span>
+              <span class="brand__name">Yenişehir ASM</span>
+              <span class="brand__sub">Ankara İl Sağlık Müdürlüğü</span>
+            </span>
+          </a>
+          <p class="footer__about">
+            Koruyucu sağlık hizmetlerini önceleyen anlayışımızla, bölgemizdeki her bireyin
+            sağlıklı bir yaşam sürmesi için çalışıyoruz.
+          </p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><svg class="icon" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
+            <a href="#" aria-label="X (Twitter)"><svg class="icon" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg class="icon" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg></a>
+          </div>
+        </div>
+
+        <nav aria-label="Hızlı menü">
+          <h3 class="footer__title">Hızlı Menü</h3>
+          <ul class="footer__links">
+            <li><a href="index.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Anasayfa</a></li>
+            <li><a href="kurumsal.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Kurumsal</a></li>
+            <li><a href="hizmetlerimiz.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Hizmetlerimiz</a></li>
+            <li><a href="hekimlerimiz.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Hekimlerimiz</a></li>
+            <li><a href="duyurular.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Duyurular</a></li>
+            <li><a href="iletisim.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>İletişim</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Faydalı bağlantılar">
+          <h3 class="footer__title">Faydalı Bağlantılar</h3>
+          <ul class="footer__links">
+            <li><a href="https://www.saglik.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>T.C. Sağlık Bakanlığı</a></li>
+            <li><a href="https://mhrs.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>MHRS Randevu</a></li>
+            <li><a href="https://enabiz.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>e-Nabız</a></li>
+            <li><a href="https://www.turkiye.gov.tr/aile-hekim-bilgisi" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Aile Hekimim Kim?</a></li>
+            <li><a href="https://hsgm.saglik.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Halk Sağlığı Gn. Md.</a></li>
+            <li><a href="https://www.ankaraeo.org.tr/nobetci-eczaneler" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Nöbetçi Eczaneler</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h3 class="footer__title">İletişim</h3>
+          <ul class="footer__contact">
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span><b>Adres:</b> Yenişehir Mah. Sağlık Cad. No:12, Çankaya / Ankara</span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span><b>Telefon:</b> <a href="tel:03123950000">0312 395 00 00</a></span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              <span><b>E-posta:</b> <a href="mailto:info@yenisehirasm.com.tr">info@yenisehirasm.com.tr</a></span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <span><b>Çalışma Saatleri:</b> Hafta içi 08:00 – 17:00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom__inner">
+          <span>© <span data-year>2026</span> Yenişehir Aile Sağlığı Merkezi. Tüm hakları saklıdır.</span>
+          <span>Son güncelleme: <b>25 Temmuz 2026</b></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Sayfanın başına dön">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

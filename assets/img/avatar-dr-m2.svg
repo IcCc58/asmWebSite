@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Erkek hekim avatarı">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DCEAFB"/><stop offset="1" stop-color="#C0DCF7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="120" fill="url(#bg)"/>
+  <circle cx="120" cy="94" r="41" fill="#AFBAC6"/>
+  <rect x="82" y="98" width="9" height="18" rx="4" fill="#AFBAC6"/>
+  <rect x="149" y="98" width="9" height="18" rx="4" fill="#AFBAC6"/>
+  <path d="M108 124 h24 v26 c0 8 -5 13 -12 13 s-12 -5 -12 -13 z" fill="#DFA67C"/>
+  <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="#F8FBFC"/>
+  <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="none" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M104 146 h32 l-16 24 z" fill="#16456F"/>
+  <path d="M104 146 L120 172 L104 202 L92 195 C96 176 99 160 104 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M136 146 L120 172 L136 202 L148 195 C144 176 141 160 136 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M99 152 c-4 26 3 44 13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M141 152 c4 26 -3 44 -13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="130" cy="210" r="8.5" fill="#33475B"/>
+  <circle cx="130" cy="210" r="3.5" fill="#94A3B8"/>
+  <circle cx="81" cy="106" r="7" fill="#EFBD93"/>
+  <circle cx="159" cy="106" r="7" fill="#EFBD93"/>
+  <circle cx="120" cy="104" r="38" fill="#EFBD93"/>
+  <path d="M98 88 h13 M129 88 h13" stroke="#8A97A5" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="105" cy="101" r="3.2" fill="#26323F"/>
+  <circle cx="135" cy="101" r="3.2" fill="#26323F"/>
+  <circle cx="105" cy="101" r="11" fill="none" stroke="#33475B" stroke-width="3"/>
+  <circle cx="135" cy="101" r="11" fill="none" stroke="#33475B" stroke-width="3"/>
+  <path d="M116 101 h8 M94 99 l-11 -4 M146 99 l11 -4" stroke="#33475B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 121 q10 8 20 0" fill="none" stroke="#26323F" stroke-width="3" stroke-linecap="round"/>
+</svg>

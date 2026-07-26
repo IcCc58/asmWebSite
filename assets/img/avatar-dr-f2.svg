@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Kadın hekim avatarı">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D8F3F8"/><stop offset="1" stop-color="#B9E9F2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="120" fill="url(#bg)"/>
+  <path d="M156 84 c18 6 26 26 20 52 l-14 4 c6-22 2-40-10-50 z" fill="#26323F"/>
+  <circle cx="120" cy="94" r="41" fill="#26323F"/>
+  <path d="M108 124 h24 v26 c0 8 -5 13 -12 13 s-12 -5 -12 -13 z" fill="#E0A97E"/>
+  <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="#F8FBFC"/>
+  <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="none" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M104 146 h32 l-16 24 z" fill="#7C8DB0"/>
+  <path d="M104 146 L120 172 L104 202 L92 195 C96 176 99 160 104 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M136 146 L120 172 L136 202 L148 195 C144 176 141 160 136 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M99 152 c-4 26 3 44 13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M141 152 c4 26 -3 44 -13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="130" cy="210" r="8.5" fill="#33475B"/>
+  <circle cx="130" cy="210" r="3.5" fill="#94A3B8"/>
+  <circle cx="81" cy="106" r="7" fill="#F2C29B"/>
+  <circle cx="159" cy="106" r="7" fill="#F2C29B"/>
+  <circle cx="120" cy="104" r="38" fill="#F2C29B"/>
+  <path d="M84 96 c8-12 24-18 36-18 s28 6 36 18 c-10-6-22-8-36-8 s-26 2-36 8 z" fill="#26323F"/>
+  <path d="M99 89 h12 M129 89 h12" stroke="#26323F" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="105" cy="101" r="3.2" fill="#26323F"/>
+  <circle cx="135" cy="101" r="3.2" fill="#26323F"/>
+  <path d="M110 120 q10 8 20 0" fill="none" stroke="#C46B5E" stroke-width="3" stroke-linecap="round"/>
+</svg>

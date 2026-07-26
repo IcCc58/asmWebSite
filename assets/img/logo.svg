@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Kurum logosu">
+  <defs>
+    <linearGradient id="lg-teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="38" fill="url(#lg-teal)"/>
+  <circle cx="40" cy="40" r="37" fill="none" stroke="#0A2540" stroke-opacity=".15" stroke-width="1.6"/>
+  <circle cx="40" cy="40" r="31" fill="none" stroke="#ffffff" stroke-opacity=".4" stroke-width="1.4"/>
+  <!-- Hilal -->
+  <circle cx="36.5" cy="38" r="14.5" fill="#ffffff"/>
+  <circle cx="40.6" cy="38" r="11.9" fill="url(#lg-teal)"/>
+  <!-- Yıldız -->
+  <path d="M49 32.6 L50.3 36.5 L54.4 36.6 L51.2 39.2 L52.3 43.2 L49 40.9 L45.7 43.2 L46.8 39.2 L43.6 36.6 L47.7 36.5 Z" fill="#ffffff"/>
+  <!-- Nabız çizgisi -->
+  <path d="M25 58h6.4l2.3-4 3.8 7.6 2.8-5.6 1.8 2h13" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".92"/>
+</svg>

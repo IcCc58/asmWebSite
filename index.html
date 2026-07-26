@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yenişehir Aile Sağlığı Merkezi — Ankara İl Sağlık Müdürlüğü</title>
+  <meta name="description" content="Yenişehir Aile Sağlığı Merkezi resmi tanıtım sitesi. Hizmetlerimiz, hekimlerimiz, duyurular ve iletişim bilgileri.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ======================= ÜST BİLGİ ÇUBUĞU ======================= -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__group topbar__group--left">
+        <span class="topbar__item topbar__item--address">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Yenişehir Mah. Sağlık Cad. No:12 Çankaya/Ankara
+        </span>
+        <a class="topbar__item" href="mailto:info@yenisehirasm.com.tr">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          info@yenisehirasm.com.tr
+        </a>
+      </div>
+      <div class="topbar__group">
+        <span class="topbar__item">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Hafta içi 08:00 – 17:00
+        </span>
+        <a class="topbar__item topbar__pill" href="tel:03123950000">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0312 395 00 00
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Yenişehir Aile Sağlığı Merkezi anasayfa">
+        <img class="brand__logo" src="assets/img/logo.svg" alt="T.C. Sağlık Bakanlığı kurum logosu" width="64" height="64">
+        <span class="brand__text">
+          <span class="brand__gov">T.C. Sağlık Bakanlığı</span>
+          <span class="brand__name">Yenişehir Aile Sağlığı Merkezi</span>
+          <span class="brand__sub">Ankara İl Sağlık Müdürlüğü</span>
+        </span>
+      </a>
+      <div class="header__meta">
+        <div class="header__hours">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div>
+            <b>Hafta içi 08:00 – 17:00</b>
+            <span>Öğle arası 12:30 – 13:30</span>
+          </div>
+        </div>
+        <a class="header__phone" href="tel:03123950000">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div>
+            <small>ASM Telefon</small>
+            <b>0312 395 00 00</b>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================== ANA MENÜ =========================== -->
+  <nav class="main-nav" aria-label="Ana menü">
+    <div class="container main-nav__inner">
+      <button class="nav-toggle" aria-expanded="false" aria-label="Menüyü aç veya kapat">
+        <svg class="icon nav-toggle__open" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg class="icon nav-toggle__close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <ul class="main-nav__list">
+        <li><a class="main-nav__link main-nav__link--active" href="index.html" aria-current="page">Anasayfa</a></li>
+        <li><a class="main-nav__link" href="kurumsal.html">Kurumsal</a></li>
+        <li><a class="main-nav__link" href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+        <li><a class="main-nav__link" href="hekimlerimiz.html">Hekimlerimiz</a></li>
+        <li><a class="main-nav__link" href="duyurular.html">Duyurular</a></li>
+        <li><a class="main-nav__link" href="iletisim.html">İletişim</a></li>
+        <li>
+          <a class="btn btn--primary btn--sm nav-cta" href="https://mhrs.gov.tr" target="_blank" rel="noopener">
+            MHRS Randevu
+            <svg class="icon" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ============================ HERO ============================ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.7 8.9a1 1 0 0 1-.6 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.2-2.7a1.2 1.2 0 0 1 1.6 0C14.5 3.8 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+            T.C. Sağlık Bakanlığı
+          </span>
+          <h1 class="hero__title">Sağlığınız İçin <em>Yanınızdayız</em></h1>
+          <p class="hero__text">
+            Yenişehir Aile Sağlığı Merkezi olarak koruyucu sağlık hizmetleri, poliklinik,
+            aşılama ve izlem hizmetlerimizle; sizin ve ailenizin sağlığı için
+            deneyimli kadromuzla hizmetinizdeyiz.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="hizmetlerimiz.html">
+              Hizmetlerimizi Keşfedin
+              <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="iletisim.html">Bize Ulaşın</a>
+          </div>
+          <div class="hero__trust">
+            <div class="hero__trust-item">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/><path d="M3.2 12h6.3l.5-1 2 4.5 2-7 1.5 3.5h5.3"/></svg>
+              <div><b><span data-count="12500" data-suffix="+">12.500+</span></b><span>Kayıtlı Hasta</span></div>
+            </div>
+            <div class="hero__trust-item">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <div><b><span data-count="6">6</span> Hekim</b><span>Uzman Kadro</span></div>
+            </div>
+            <div class="hero__trust-item">
+              <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m8.5 12 2.5 2.5 5-5"/></svg>
+              <div><b>%<span data-count="98">98</span></b><span>Hasta Memnuniyeti</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__art">
+          <img src="assets/img/hero-building.svg" alt="Yenişehir Aile Sağlığı Merkezi binasının dışarıdan görünümü" width="640" height="480">
+          <div class="hero__card hero__card--hours">
+            <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div><b>Bugün Açığız</b><span>08:00 – 17:00</span></div>
+          </div>
+          <div class="hero__card hero__card--pulse">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/><path d="M3.2 12h6.3l.5-1 2 4.5 2-7 1.5 3.5h5.3"/></svg>
+            <div><b>Koruyucu Sağlık</b><span>Birinci basamak hizmeti</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= HIZLI ERİŞİM ========================= -->
+    <section class="quick-access" aria-label="Hızlı erişim bağlantıları">
+      <div class="container quick-access__grid">
+        <a class="qa-card reveal" href="https://mhrs.gov.tr" target="_blank" rel="noopener">
+          <span class="qa-card__icon">
+            <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          </span>
+          <h3>MHRS Randevu</h3>
+          <p>Merkezi Hekim Randevu Sistemi üzerinden randevunuzu hemen alın.</p>
+          <span class="qa-card__link">Randevu Al <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+        <a class="qa-card reveal reveal--d1" href="https://enabiz.gov.tr" target="_blank" rel="noopener">
+          <span class="qa-card__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></svg>
+          </span>
+          <h3>e-Nabız</h3>
+          <p>Tahlil sonuçlarınıza ve sağlık geçmişinize tek tıkla ulaşın.</p>
+          <span class="qa-card__link">Giriş Yap <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+        <a class="qa-card reveal reveal--d2" href="https://www.turkiye.gov.tr/aile-hekim-bilgisi" target="_blank" rel="noopener">
+          <span class="qa-card__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </span>
+          <h3>Aile Hekimim Kim?</h3>
+          <p>Kayıtlı olduğunuz aile hekiminizi e-Devlet üzerinden öğrenin.</p>
+          <span class="qa-card__link">Sorgula <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+        <a class="qa-card reveal reveal--d3" href="https://www.ankaraeo.org.tr/nobetci-eczaneler" target="_blank" rel="noopener">
+          <span class="qa-card__icon">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M10.5 20.5 3.5 13.5a5.5 5.5 0 0 1 7.8-7.8l.7.7.7-.7a5.5 5.5 0 0 1 7.8 7.8z"/><path d="M8.5 8.5l7 7M12 5v.01M19 12h.01M5 12h.01M12 19v.01"/></svg>
+          </span>
+          <h3>Nöbetçi Eczane</h3>
+          <p>Ankara'daki nöbetçi eczanelerin güncel listesini görüntüleyin.</p>
+          <span class="qa-card__link">Listele <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ======================= ÖNEMLİ TELEFONLAR ===================== -->
+    <section class="section" style="padding-bottom: 0;">
+      <div class="container">
+        <div class="info-strip reveal" style="border-radius: var(--radius-lg); padding: 26px 30px;">
+          <div class="info-strip__grid">
+            <a class="info-strip__item info-strip__item--alert" href="tel:112">
+              <span class="info-strip__icon"><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              <div><b>112</b><span>Acil Sağlık Hizmetleri</span></div>
+            </a>
+            <a class="info-strip__item" href="tel:182">
+              <span class="info-strip__icon"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+              <div><b>182</b><span>MHRS Randevu Hattı</span></div>
+            </a>
+            <a class="info-strip__item" href="tel:184">
+              <span class="info-strip__icon"><svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8Z"/></svg></span>
+              <div><b>184</b><span>SABİM İletişim Hattı</span></div>
+            </a>
+            <a class="info-strip__item" href="tel:171">
+              <span class="info-strip__icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span>
+              <div><b>171</b><span>Sigara Bırakma Hattı</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= KADROMUZ =========================== -->
+    <section class="section" id="kadromuz">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="section-head__eyebrow">Kadromuz</span>
+          <h2>Hekimlerimizle Tanışın</h2>
+          <p>Alanında deneyimli aile hekimlerimiz ve sağlık çalışanlarımızla size en iyi hizmeti sunmak için buradayız.</p>
+        </div>
+        <div class="doctors-grid">
+          <article class="doctor-card reveal">
+            <div class="doctor-card__avatar">
+              <img src="assets/img/avatar-dr-f1.svg" alt="Uzm. Dr. Ayşe Yıldırım" width="150" height="150" loading="lazy">
+            </div>
+            <div class="doctor-card__body">
+              <h3>Uzm. Dr. Ayşe Yıldırım</h3>
+              <p class="doctor-card__role">Aile Hekimliği Uzmanı</p>
+              <span class="doctor-card__unit">1 Nolu Aile Hekimliği Birimi</span>
+            </div>
+          </article>
+          <article class="doctor-card reveal reveal--d1">
+            <div class="doctor-card__avatar">
+              <img src="assets/img/avatar-dr-m1.svg" alt="Uzm. Dr. Mehmet Karaca" width="150" height="150" loading="lazy">
+            </div>
+            <div class="doctor-card__body">
+              <h3>Uzm. Dr. Mehmet Karaca</h3>
+              <p class="doctor-card__role">Aile Hekimliği Uzmanı</p>
+              <span class="doctor-card__unit">2 Nolu Aile Hekimliği Birimi</span>
+            </div>
+          </article>
+          <article class="doctor-card reveal reveal--d2">
+            <div class="doctor-card__avatar">
+              <img src="assets/img/avatar-dr-f3.svg" alt="Dr. Zeynep Arslan" width="150" height="150" loading="lazy">
+            </div>
+            <div class="doctor-card__body">
+              <h3>Dr. Zeynep Arslan</h3>
+              <p class="doctor-card__role">Aile Hekimi</p>
+              <span class="doctor-card__unit">3 Nolu Aile Hekimliği Birimi</span>
+            </div>
+          </article>
+          <article class="doctor-card reveal reveal--d3">
+            <div class="doctor-card__avatar">
+              <img src="assets/img/avatar-dr-m3.svg" alt="Dr. Emre Demirtaş" width="150" height="150" loading="lazy">
+            </div>
+            <div class="doctor-card__body">
+              <h3>Dr. Emre Demirtaş</h3>
+              <p class="doctor-card__role">Aile Hekimi</p>
+              <span class="doctor-card__unit">4 Nolu Aile Hekimliği Birimi</span>
+            </div>
+          </article>
+        </div>
+        <div class="text-center mt-4 reveal">
+          <a class="btn btn--primary" href="hekimlerimiz.html">
+            Tüm Kadromuzu Görün
+            <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== HİZMETLERİMİZ ======================== -->
+    <section class="section section--soft" id="hizmetler">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="section-head__eyebrow">Hizmetlerimiz</span>
+          <h2>Size Sunduğumuz Sağlık Hizmetleri</h2>
+          <p>Birinci basamak sağlık hizmetleri kapsamında merkezimizde verilen başlıca hizmetler.</p>
+        </div>
+        <div class="services-grid">
+          <a class="service-card reveal" href="hizmetlerimiz.html#poliklinik">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M4 2H3a1 1 0 0 0-1 1v6a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1h-1"/><path d="M8 15v2a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="11" r="2"/></svg>
+            </span>
+            <h3>Poliklinik Hizmetleri</h3>
+            <p>Birinci basamak muayene, teşhis ve tedavi hizmetleri.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="service-card reveal reveal--d1" href="hizmetlerimiz.html#asilama">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><path d="m18 2 4 4M14.5 5.5l4 4M12 8l4 4M6 18l-4 4"/><path d="m13 7 4 4-8.5 8.5a2.12 2.12 0 0 1-3-3Z"/><path d="m16 4 4 4"/></svg>
+            </span>
+            <h3>Aşılama (Bağışıklama)</h3>
+            <p>Ulusal aşı takvimine uygun bebek, çocuk ve yetişkin aşıları.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="service-card reveal reveal--d2" href="hizmetlerimiz.html#gebe-lohusa">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/><path d="M3.2 12h6.3l.5-1 2 4.5 2-7 1.5 3.5h5.3"/></svg>
+            </span>
+            <h3>Gebe &amp; Lohusa İzlemi</h3>
+            <p>Gebelik süreci ve doğum sonrası anne-bebek sağlığı takibi.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="service-card reveal reveal--d3" href="hizmetlerimiz.html#bebek-cocuk">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M9 12h.01M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5S14.6 8 13.5 8c-.8 0-1.5-.4-1.5-1"/></svg>
+            </span>
+            <h3>Bebek &amp; Çocuk İzlemi</h3>
+            <p>Boy-kilo takibi, gelişim izlemi ve büyüme değerlendirmesi.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="service-card reveal" href="hizmetlerimiz.html#aile-planlamasi">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
+            <h3>Aile Planlaması</h3>
+            <p>Üreme sağlığı danışmanlığı ve aile planlaması hizmetleri.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="service-card reveal reveal--d1" href="hizmetlerimiz.html#laboratuvar">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M10 2v7.5a2 2 0 0 1-.2.9L4.7 20.5a1 1 0 0 0 .9 1.5h12.8a1 1 0 0 0 .9-1.5L14.2 10.4a2 2 0 0 1-.2-.9V2"/><path d="M8.5 2h7M7 16h10"/></svg>
+            </span>
+            <h3>Laboratuvar Tetkikleri</h3>
+            <p>Kan, idrar ve diğer temel tetkikler için numune alımı.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="service-card reveal reveal--d2" href="hizmetlerimiz.html#enjeksiyon">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="9" width="20" height="6" rx="3" transform="rotate(-45 12 12)"/><path d="M10.5 10.5h.01M13.5 13.5h.01M12 12h.01M10.5 13.5h.01M13.5 10.5h.01"/></svg>
+            </span>
+            <h3>Enjeksiyon &amp; Pansuman</h3>
+            <p>Reçeteli enjeksiyon uygulamaları ve yara bakım hizmetleri.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+          <a class="service-card reveal reveal--d3" href="hizmetlerimiz.html#danismanlik">
+            <span class="service-card__icon">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8Z"/></svg>
+            </span>
+            <h3>Tıbbi Danışmanlık &amp; Eğitim</h3>
+            <p>Sağlıklı yaşam danışmanlığı ve halk sağlığı eğitimleri.</p>
+            <span class="service-card__more">Detaylı Bilgi <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= DUYURULAR ========================== -->
+    <section class="section" id="duyurular">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="section-head__eyebrow">Duyurular</span>
+          <h2>Güncel Duyuru ve Haberler</h2>
+          <p>Merkezimizle ilgili güncel duyuru, kampanya ve bilgilendirmeler.</p>
+        </div>
+        <div class="ann-grid">
+          <a class="ann-card reveal" href="duyurular.html#duyuru-1">
+            <div class="ann-card__date"><b>22</b><span>Tem</span></div>
+            <div class="ann-card__body">
+              <span class="ann-card__cat">Aşılama</span>
+              <h3>Grip Sezonu Hazırlıkları ve Aşı Bilgilendirmesi</h3>
+              <p>Risk grubundaki vatandaşlarımız için grip aşısı uygulaması başlamıştır.</p>
+            </div>
+          </a>
+          <a class="ann-card reveal reveal--d1" href="duyurular.html#duyuru-2">
+            <div class="ann-card__date"><b>15</b><span>Tem</span></div>
+            <div class="ann-card__body">
+              <span class="ann-card__cat">İzlem</span>
+              <h3>Bebek ve Çocuk İzlem Günleri Güncellendi</h3>
+              <p>İzlem günlerimiz ve saatlerimiz güncellenmiştir, lütfen inceleyiniz.</p>
+            </div>
+          </a>
+          <a class="ann-card reveal reveal--d2" href="duyurular.html#duyuru-3">
+            <div class="ann-card__date"><b>01</b><span>Tem</span></div>
+            <div class="ann-card__body">
+              <span class="ann-card__cat">Duyuru</span>
+              <h3>Web Sitemiz Yenilendi!</h3>
+              <p>Yeni web sitemiz yayında. Görüş ve önerilerinizi bizimle paylaşabilirsiniz.</p>
+            </div>
+          </a>
+        </div>
+        <div class="text-center mt-4 reveal">
+          <a class="btn btn--ghost" href="duyurular.html">
+            Tüm Duyurular
+            <svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CTA BANDI ========================== -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="cta-banner__inner">
+            <div>
+              <h2>Randevu Almak Çok Kolay</h2>
+              <p>MHRS üzerinden internetten veya 182 numaralı telefonu arayarak aile hekiminizden hızlıca randevu alabilirsiniz.</p>
+            </div>
+            <div class="cta-banner__actions">
+              <a class="btn btn--white btn--lg" href="https://mhrs.gov.tr" target="_blank" rel="noopener">
+                MHRS Online Randevu
+                <svg class="icon" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+              </a>
+              <a class="btn btn--outline btn--lg" href="tel:182">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                182'yi Arayın
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="footer-cta-line"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <img class="brand__logo" src="assets/img/logo.svg" alt="" width="64" height="64">
+            <span class="brand__text">
+              <span class="brand__gov">T.C. Sağlık Bakanlığı</span>
+              <span class="brand__name">Yenişehir ASM</span>
+              <span class="brand__sub">Ankara İl Sağlık Müdürlüğü</span>
+            </span>
+          </a>
+          <p class="footer__about">
+            Koruyucu sağlık hizmetlerini önceleyen anlayışımızla, bölgemizdeki her bireyin
+            sağlıklı bir yaşam sürmesi için çalışıyoruz.
+          </p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><svg class="icon" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
+            <a href="#" aria-label="X (Twitter)"><svg class="icon" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg class="icon" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg></a>
+          </div>
+        </div>
+
+        <nav aria-label="Hızlı menü">
+          <h3 class="footer__title">Hızlı Menü</h3>
+          <ul class="footer__links">
+            <li><a href="index.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Anasayfa</a></li>
+            <li><a href="kurumsal.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Kurumsal</a></li>
+            <li><a href="hizmetlerimiz.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Hizmetlerimiz</a></li>
+            <li><a href="hekimlerimiz.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Hekimlerimiz</a></li>
+            <li><a href="duyurular.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Duyurular</a></li>
+            <li><a href="iletisim.html"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>İletişim</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Faydalı bağlantılar">
+          <h3 class="footer__title">Faydalı Bağlantılar</h3>
+          <ul class="footer__links">
+            <li><a href="https://www.saglik.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>T.C. Sağlık Bakanlığı</a></li>
+            <li><a href="https://mhrs.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>MHRS Randevu</a></li>
+            <li><a href="https://enabiz.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>e-Nabız</a></li>
+            <li><a href="https://www.turkiye.gov.tr/aile-hekim-bilgisi" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Aile Hekimim Kim?</a></li>
+            <li><a href="https://hsgm.saglik.gov.tr" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Halk Sağlığı Gn. Md.</a></li>
+            <li><a href="https://www.ankaraeo.org.tr/nobetci-eczaneler" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>Nöbetçi Eczaneler</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h3 class="footer__title">İletişim</h3>
+          <ul class="footer__contact">
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span><b>Adres:</b> Yenişehir Mah. Sağlık Cad. No:12, Çankaya / Ankara</span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span><b>Telefon:</b> <a href="tel:03123950000">0312 395 00 00</a></span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              <span><b>E-posta:</b> <a href="mailto:info@yenisehirasm.com.tr">info@yenisehirasm.com.tr</a></span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <span><b>Çalışma Saatleri:</b> Hafta içi 08:00 – 17:00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom__inner">
+          <span>© <span data-year>2026</span> Yenişehir Aile Sağlığı Merkezi. Tüm hakları saklıdır.</span>
+          <span>Son güncelleme: <b>25 Temmuz 2026</b></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Yukarı çık butonu -->
+  <button class="to-top" aria-label="Sayfanın başına dön">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

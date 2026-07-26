@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Erkek hekim avatarı">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDF0D5"/><stop offset="1" stop-color="#FBE3B0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="120" fill="url(#bg)"/>
+  <circle cx="120" cy="94" r="41" fill="#4A3120"/>
+  <rect x="82" y="98" width="9" height="16" rx="4" fill="#4A3120"/>
+  <rect x="149" y="98" width="9" height="16" rx="4" fill="#4A3120"/>
+  <path d="M108 124 h24 v26 c0 8 -5 13 -12 13 s-12 -5 -12 -13 z" fill="#D69F72"/>
+  <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="#F8FBFC"/>
+  <path d="M46 240 v-28 c0-40 34-64 56-68 l36 0 c22 4 56 28 56 68 v28 z" fill="none" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M104 146 h32 l-16 24 z" fill="#3D9970"/>
+  <path d="M104 146 L120 172 L104 202 L92 195 C96 176 99 160 104 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M136 146 L120 172 L136 202 L148 195 C144 176 141 160 136 146 Z" fill="#FFFFFF" stroke="#DFE9EE" stroke-width="2"/>
+  <path d="M99 152 c-4 26 3 44 13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M141 152 c4 26 -3 44 -13 54" fill="none" stroke="#33475B" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="130" cy="210" r="8.5" fill="#33475B"/>
+  <circle cx="130" cy="210" r="3.5" fill="#94A3B8"/>
+  <circle cx="81" cy="106" r="7" fill="#E8B184"/>
+  <circle cx="159" cy="106" r="7" fill="#E8B184"/>
+  <circle cx="120" cy="104" r="38" fill="#E8B184"/>
+  <path d="M94 112 c1 28 12 40 26 40 s25 -12 26 -40 c-3 20 -12 28 -26 28 s-23 -8 -26 -28 z" fill="#4A3120"/>
+  <path d="M109 114 q11 7 22 0 q-2 8 -11 8 t-11 -8 z" fill="#4A3120"/>
+  <path d="M98 90 h13 M129 90 h13" stroke="#4A3120" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="105" cy="101" r="3.2" fill="#26323F"/>
+  <circle cx="135" cy="101" r="3.2" fill="#26323F"/>
+  <path d="M111 124 q9 6 18 0" fill="none" stroke="#26323F" stroke-width="3" stroke-linecap="round"/>
+</svg>
