@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Yenişehir Aile Sağlığı Merkezi — Etkileşimler
+   Patnos 3 Nolu Aile Sağlığı Merkezi — Etkileşimler
    ========================================================================== */
 (function () {
   "use strict";
